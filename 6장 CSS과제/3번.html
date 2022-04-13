@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3. position:fixed를 이용하여 다음과 같이 광고문이 항상 브라우저의 바닥에 나타나도록 작성하라.  광고문은 브라우저 폭의 100% 크기로 출력된다.</title>
+    <style>
+        .under {
+            width: 100%; position: fixed;
+            top: 100%;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>소연재</h1><hr>
+    <div>
+        저는 체조 선수 소연재입니다. 음악을 들으면서 책읽기를 좋아합니다. 김치 찌개와 막국수 무척 좋아합니다.
+    </div>
+    <br>
+
+    <div class="under">
+        소연재 공연은 24일입니다.
+    </div>
+</body>
+</html>
